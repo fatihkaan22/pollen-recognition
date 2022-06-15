@@ -1,0 +1,370 @@
+item {
+  id: 1
+  name: 'artemisia'
+}
+
+item {
+  id: 2
+  name: 'cirsium'
+}
+
+item {
+  id: 3
+  name: 'helichrysum'
+}
+
+item {
+  id: 4
+  name: 'silene'
+}
+
+item {
+  id: 5
+  name: 'acantholimon'
+}
+
+item {
+  id: 6
+  name: 'rosa canina'
+}
+
+item {
+  id: 7
+  name: 'vicia'
+}
+
+item {
+  id: 8
+  name: 'eremurus'
+}
+
+item {
+  id: 9
+  name: 'gundelia'
+}
+
+item {
+  id: 10
+  name: 'astragalus'
+}
+
+item {
+  id: 11
+  name: 'anchusa'
+}
+
+item {
+  id: 12
+  name: 'amaranthaceae'
+}
+
+item {
+  id: 13
+  name: 'campanula'
+}
+
+item {
+  id: 14
+  name: 'valeriana'
+}
+
+item {
+  id: 15
+  name: 'coronilla'
+}
+
+item {
+  id: 16
+  name: 'onopordum'
+}
+
+item {
+  id: 17
+  name: 'gallium'
+}
+
+item {
+  id: 18
+  name: 'thymus'
+}
+
+item {
+  id: 19
+  name: 'linaria'
+}
+
+item {
+  id: 20
+  name: 'pimpinella'
+}
+
+item {
+  id: 21
+  name: 'origanum'
+}
+
+item {
+  id: 22
+  name: 'cephalaria'
+}
+
+item {
+  id: 23
+  name: 'centaurea'
+}
+
+item {
+  id: 24
+  name: 'helianthus'
+}
+
+item {
+  id: 25
+  name: 'trifolium'
+}
+
+item {
+  id: 26
+  name: 'asteraceae'
+}
+
+item {
+  id: 27
+  name: 'lythrum salicaria'
+}
+
+item {
+  id: 28
+  name: 'astragalus longifolius'
+}
+
+item {
+  id: 29
+  name: 'geranium'
+}
+
+item {
+  id: 30
+  name: 'tilia'
+}
+
+item {
+  id: 31
+  name: 'hedysarum'
+}
+
+item {
+  id: 32
+  name: 'ranunculus'
+}
+
+item {
+  id: 33
+  name: 'echium'
+}
+
+item {
+  id: 34
+  name: 'hypericum'
+}
+
+item {
+  id: 35
+  name: 'teucrium'
+}
+
+item {
+  id: 36
+  name: 'ptilostemon'
+}
+
+item {
+  id: 37
+  name: 'phlomis'
+}
+
+item {
+  id: 38
+  name: 'filipendula'
+}
+
+item {
+  id: 39
+  name: 'dianthus'
+}
+
+item {
+  id: 40
+  name: 'cichorium'
+}
+
+item {
+  id: 41
+  name: 'malva'
+}
+
+item {
+  id: 42
+  name: 'astragalus gummifer'
+}
+
+item {
+  id: 43
+  name: 'convolvulus'
+}
+
+item {
+  id: 44
+  name: 'lotus'
+}
+
+item {
+  id: 45
+  name: 'potentilla'
+}
+
+item {
+  id: 46
+  name: 'poaceae'
+}
+
+item {
+  id: 47
+  name: 'cirsium yildizianum'
+}
+
+item {
+  id: 48
+  name: 'melilotus'
+}
+
+item {
+  id: 49
+  name: 'salix'
+}
+
+item {
+  id: 50
+  name: 'portulaca'
+}
+
+item {
+  id: 51
+  name: 'apiaceae'
+}
+
+item {
+  id: 52
+  name: 'allium'
+}
+
+item {
+  id: 53
+  name: 'rhus'
+}
+
+item {
+  id: 54
+  name: 'verbascum'
+}
+
+item {
+  id: 55
+  name: 'scabiosa'
+}
+
+item {
+  id: 56
+  name: 'lamium macrodon'
+}
+
+item {
+  id: 57
+  name: 'alcea'
+}
+
+item {
+  id: 58
+  name: 'zea mays'
+}
+
+item {
+  id: 59
+  name: 'cardus'
+}
+
+item {
+  id: 60
+  name: 'plantago lanceolata'
+}
+
+item {
+  id: 61
+  name: 'xeranthemum'
+}
+
+item {
+  id: 62
+  name: 'citrus'
+}
+
+item {
+  id: 63
+  name: 'eryngium campastre'
+}
+
+item {
+  id: 64
+  name: 'lamium'
+}
+
+item {
+  id: 65
+  name: 'rumex'
+}
+
+item {
+  id: 66
+  name: 'sanguisorba minor'
+}
+
+item {
+  id: 67
+  name: 'euphorbia'
+}
+
+item {
+  id: 68
+  name: 'chenopodium'
+}
+
+item {
+  id: 69
+  name: 'echinops'
+}
+
+item {
+  id: 70
+  name: 'xanthium'
+}
+
+item {
+  id: 71
+  name: 'rosaceae'
+}
+
+item {
+  id: 72
+  name: 'caryophllaceae'
+}
+
+item {
+  id: 73
+  name: 'acanthus'
+}
+
+item {
+  id: 74
+  name: 'malvaceae'
+}
+

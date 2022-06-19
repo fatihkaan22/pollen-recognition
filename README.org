@@ -1,15 +1,14 @@
 #+TITLE: Pollen Grain Recognition
-#+SETUPFILE: /home/near/git/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
-* Requirements
+** Requirements
 
 - CUDA 10.1
 - tensorflow 2.3.1
 - tensorflow-gpu 2.3.1
 - Tensorflow Object Detection API
 
-* Import Saved Models
+** Import Saved Models
 
 Importing and evaluating of saved models requires a model file and label map file.
 Models can be downloaded from the following table
@@ -30,7 +29,7 @@ Importing and running of models are demonstrated in the following notebook files
 - [[https://github.com/fatihkaan22/pollen-recognition/blob/main/notebooks/efficientdet_d1_species_import.ipynb][Notebook file: Import and run EfficientDet D1 Species Level]]
 - [[https://github.com/fatihkaan22/pollen-recognition/blob/main/notebooks/ssd_resnet50_v1_species_import.ipynb][Notebook file: Import and run SSD ResNet50 V1 FPN]]
 
-* Train Custom Model
+** Train Custom Model
 
 The models are initialized with the pre-trained models from [[https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md][TensorFlow 2 Detection Model Zoo]] .
 

@@ -1,0 +1,52 @@
+#+TITLE: Pollen Grain Recognition
+#+SETUPFILE: /home/near/git/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil
+
+* Requirements
+
+- CUDA 10.1
+- tensorflow 2.3.1
+- tensorflow-gpu 2.3.1
+- Tensorflow Object Detection API
+
+* Import Saved Models
+
+Importing and evaluating of saved models requires a model file and label map file.
+Models can be downloaded from the following table
+
+| Model                 | Classification Level |
+|-----------------------+----------------------|
+| [[https://github.com/fatihkaan22/pollen-recognition/releases/download/v1.0.0/efficentdet_d1_family.tar.gz][EfficientDet D1]]       | Species              |
+| [[https://github.com/fatihkaan22/pollen-recognition/releases/download/v1.0.0/ssd_resnet50_v1_fpn_species.tar.gz][SSD ResNet50 V1 FPN]]   | Species              |
+| [[https://github.com/fatihkaan22/pollen-recognition/releases/download/v1.0.0/faster_rcnn_resnet50_v1_species.tar.gz][Faster R-CNN ResNet50]] | Species              |
+| [[https://github.com/fatihkaan22/pollen-recognition/releases/download/v1.0.0/ssd_resnet50_v1_fpn_family.tar.gz][SSD ResNet50 V1 FPN]]   | Family               |
+| [[https://github.com/fatihkaan22/pollen-recognition/releases/download/v1.0.0/efficentdet_d1_family.tar.gz][EfficentDet D1]]        | Family               |
+
+Labelmaps are located in [[https://github.com/fatihkaan22/pollen-recognition/tree/main/Tensorflow/workspace/data][data]] path.
+Label map should be selected according to classification task (species/family).
+
+Importing and running of models are demonstrated in the following notebook files:
+
+- [[https://github.com/fatihkaan22/pollen-recognition/blob/main/notebooks/efficientdet_d1_species_import.ipynb][Notebook file: Import and run EfficientDet D1 Species Level]]
+- [[https://github.com/fatihkaan22/pollen-recognition/blob/main/notebooks/ssd_resnet50_v1_species_import.ipynb][Notebook file: Import and run SSD ResNet50 V1 FPN]]
+
+* Train Custom Model
+
+The models are initialized with the pre-trained models from [[https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md][TensorFlow 2 Detection Model Zoo]] .
+
+Models based on the TensorFlow object detection API need a special format for all input data, called TFRecord.
+TensorFlow also requires a label map pbtxt file, which maps each of the used labels to integer values.
+This label map is used both in the training and detection processes.
+For 2 different models, we need two label maps and two TF record's generated using those label maps.
+Labelmaps are located in [[https://github.com/fatihkaan22/pollen-recognition/tree/main/Tensorflow/workspace/data][data]] path.
+
+In order to know which species belong to which family, a [[https://github.com/fatihkaan22/pollen-recognition/blob/main/Tensorflow/workspace/data/family_map.yaml][family_map.yaml]] file is created where keys are the family names and values are the species belonging to that family.
+This file is used to map each species to a family and generate family record files from pollen images and annotation files.
+
+Script that generates TFRecord's can be found in [[https://github.com/fatihkaan22/pollen-recognition/tree/main/Tensorflow/workspace/utils][utils]] directory.
+Annotation files are expected in the same directory and with the same name of the image file.
+Paths of generated files are selected as =workspace/data/species= and =workspace/data/family= directories.
+
+Training and evaluation process of EfficientDet D1 is demonstrated in the following notebook file:
+
+- [[https://github.com/fatihkaan22/pollen-recognition/blob/main/notebooks/efficientdet_d1_family_train.ipynb][Notebook file: EfficientDet D1 Train & Evaluate]]

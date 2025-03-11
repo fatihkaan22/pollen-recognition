@@ -1,6 +1,7 @@
 #+TITLE: Pollen Grain Recognition
 #+OPTIONS: num:nil
 
+[[report.pdf][Thesis Report]]
 [[report-summary-tr.pdf][Polen Görüntülerinin Tespiti ve Sınıflandırılması Rapor Özeti]]
 
 ** Requirements

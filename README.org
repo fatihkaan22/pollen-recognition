@@ -1,6 +1,8 @@
 #+TITLE: Pollen Grain Recognition
 #+OPTIONS: num:nil
 
+[[report-summary-tr.pdf][Polen Görüntülerinin Tespiti ve Sınıflandırılması Rapor Özeti]]
+
 ** Requirements
 
 - CUDA 10.1
